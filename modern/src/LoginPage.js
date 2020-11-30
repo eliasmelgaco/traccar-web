@@ -112,6 +112,7 @@ const LoginPage = () => {
               <Button type='button' variant='contained' disabled onClick={handleRegister}>
                 {t('loginRegister')}
               </Button>
+              <div style={{marginRight: '3em'}}>adfasdf</div>
               <Button type='submit' variant='contained' color='primary' disabled={!email || !password}>
                 {t('loginLogin')}
               </Button>
